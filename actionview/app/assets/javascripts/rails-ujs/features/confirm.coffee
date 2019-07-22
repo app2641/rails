@@ -7,6 +7,7 @@ Rails.handleConfirm = (e) ->
 
 # Default confirm dialog, may be overridden with custom confirm dialog in Rails.confirm
 Rails.confirm = (message, element) ->
+  console.log('confirm')
   confirm(message)
 
 # For 'data-confirm' attribute:
